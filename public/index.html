@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eat-da-burger</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+</head>
+
+<body>
+    <div class="container" id="burgerContainer">
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <img src="https://ih0.redbubble.net/image.568568800.3284/flat,550x550,075,f.u1.jpg" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <h1 class="text-danger">Eat-Da-Burger!</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div id="toEat" class="col">
+                <!-- display when devoured = false -->
+
+            </div>
+            <div id="eaten" class="col">
+                <!-- display when devoured = true -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <div class="form-group w-75 justify-content-center">
+                    <textarea id="userBurger" class="form-control userBurger" rows="3"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <button id="submit"class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <p>Enter a burger you want to eat Click the "Submit" button</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="jquery-3.4.1.min.js"></script> -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="assets/js/index.js" type="text/javascript"></script>
+</body>
+
+</html>
